@@ -31,8 +31,8 @@ public class Diffie_Helmann {
         A.calculateKey();
         B.calculateKey();
         
-        System.out.println("La chiave di " + A.getNome() + " é " + A.getChiaveCalcolata());
-        System.out.println("La chiave di " + B.getNome() + " é " + B.getChiaveCalcolata());
+        System.out.println("La chiave di " + A.getNome() + " è " + A.getChiaveCalcolata());
+        System.out.println("La chiave di " + B.getNome() + " è " + B.getChiaveCalcolata());
         
         
     }
